@@ -141,7 +141,7 @@ def checkWinner():
 def endGame(error):
 
     if error == "forgot":
-        print "Player " + turn + ", You forgot the board! You loose!"
+        print "Player " + turn + ", You forgot the board! You lose!"
         playAgain = raw_input("Do you want to play again? y/n ")
         if playAgain.lower() == 'y':
             newGame()
